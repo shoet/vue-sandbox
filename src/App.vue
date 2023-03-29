@@ -1,16 +1,16 @@
 <script setup lang="ts">
 import HandlingUserInput from './HandlingUserInput.vue'
 import AttributeBindings from './AttributeBindings.vue'
+import ConditionalsAndLoops from './ConditionalsAndLoops.vue';
+import FormBindings from './FormBindings.vue';
 </script>
 
 <template>
   <!-- <HandlingUserInput /> -->
-  <AttributeBindings />
+  <!-- <AttributeBindings /> -->
+  <!-- <ConditionalsAndLoops /> -->
+  <FormBindings />
 </template>
 
 <style>
-button, a {
-  display: block;
-  margin-bottom: 1em;
-}
 </style>
