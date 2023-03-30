@@ -4,6 +4,8 @@ const text = ref('')
 const isChecked = ref(false)
 const checkedNames = ref<string[]>([])
 const radio = ref('One')
+const selected = ref('')
+const multiSelected = ref<string[]>([])
 
 function submit() {
   console.log(text.value)
@@ -40,6 +42,27 @@ function pushName(event: any) {
     <span><input type="radio" v-model="radio" value="One"> One</span><br>
     <span><input type="radio" v-model="radio" value="Two"> Two</span><br>
     Picked: {{ radio }}
+  </div>
+
+  <div class="input-group">
+    <h3>Select</h3>
+    <select v-model="selected">
+      <option disabled value="">select one</option>
+      <option>A</option>
+      <option>B</option>
+      <option>C</option>
+    </select>
+    <span> Selected: {{ selected }}</span>
+  </div>
+
+  <div class="input-group">
+    <h3>Multi Select</h3>
+    <select v-model="multiSelected" multiple style="width: 100px">
+      <option>A</option>
+      <option>B</option>
+      <option>C</option>
+    </select>
+    <span>Selected: {{ multiSelected }}</span>
   </div>
 
   <button @click="submit">Submit</button>
