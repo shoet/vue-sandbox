@@ -25,6 +25,23 @@ const msgStyle3 = ref({
   "font-size": "50px",
 })
 
+// const style1or2 = ref('style1')
+const style1or2 = ref({
+  style: 'style1',
+  msg: 'hoge'
+})
+
+function changeStyle() {
+  if (style1or2.value.style = 'style1') {
+    style1or2.value.style = 'style2';
+    style1or2.value.msg = 'fuga';
+  } else {
+    style1or2.value.style = 'style1';
+    style1or2.value.msg = 'hoge';
+  }
+  console.log('hoge');
+}
+
 </script>
 
 <template>
@@ -36,7 +53,19 @@ const msgStyle3 = ref({
   <p v-bind:style="msgStyle">{{ msg }}</p>
   <p v-bind:style="msgStyle2">{{ msg }}</p>
   <p v-bind:style="[msgStyle2, msgStyle3]">{{ msg }}</p>
+  <p v-bind:class="style1or2.style">{{ style1or2.msg }}</p>
+  <button v-on:click="changeStyle">button</button>
 </template>
 
 <style>
+.style1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+}
+
+.style2 {
+  font-size: 20px;
+  color: white;
+}
 </style>
