@@ -12,6 +12,10 @@ import DirectiveOnParamOthers from './DirectiveOnParamOthers.vue';
 import DirectiveOnParamBoth from './DirectiveOnParamBoth.vue';
 import DirectiveOnPrevent from './DirectiveOnPrevent.vue';
 import DirectiveOnModifires from './DirectiveOnModifires.vue';
+import DirectiveModel from './DirectiveModel.vue';
+import DirectiveOneway from './DirectiveOneway.vue';
+import DirectiveTwoway from './DirectiveTwoway.vue';
+import DirectiveModelControls from './DirectiveModelControls.vue';
 </script>
 
 <template>
@@ -27,8 +31,20 @@ import DirectiveOnModifires from './DirectiveOnModifires.vue';
   <!-- <DirectiveOnParamOthers /> -->
   <!-- <DirectiveOnParamBoth /> -->
   <!-- <DirectiveOnPrevent /> -->
-  <DirectiveOnModifires />
+  <!-- <DirectiveOnModifires /> -->
+  <!-- <DirectiveModel /> -->
+  <!-- <section>
+    <DirectiveOneway />
+    <br>
+    <DirectiveTwoway />
+  </section> -->
+  <section>
+    <DirectiveModelControls />
+  </section>
 </template>
 
 <style>
+section {
+  border: 1px solid white;
+}
 </style>
