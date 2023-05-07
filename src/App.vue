@@ -20,6 +20,13 @@ import DirectiveConditionalBasic from './DirectiveConditionalBasic.vue';
 import DirectiveConditionalFull from './DirectiveConditionalFull.vue';
 import DirectiveConditionalTemplate from './DirectiveConditionalTemplate.vue';
 import DirectiveLoopBasic from './DirectiveLoopBasic.vue';
+import DirectiveLoopAssociative from './DirectiveLoopAssociative.vue';
+import DirectiveLoopMap from './DirectiveLoopMap.vue';
+import DirectiveLoopObj from './DirectiveLoopObj.vue';
+import DirectiveLoopArrayobj from './DirectiveLoopArrayobj.vue';
+import DirectiveLoopMapobj from './DirectiveLoopMapobj.vue';
+import DirectiveLoopRange from './DirectiveLoopRange.vue';
+import ListchangeFilter from './ListchangeFilter.vue';
 </script>
 
 <template>
@@ -48,7 +55,14 @@ import DirectiveLoopBasic from './DirectiveLoopBasic.vue';
   <!-- <DirectiveConditionalBasic /> -->
   <!-- <DirectiveConditionalFull /> -->
   <!-- <DirectiveConditionalTemplate /> -->
-  <DirectiveLoopBasic />
+  <!-- <DirectiveLoopBasic /> -->
+  <!-- <DirectiveLoopAssociative /> -->
+  <!-- <DirectiveLoopMap /> -->
+  <!-- <DirectiveLoopObj /> -->
+  <!-- <DirectiveLoopArrayobj /> -->
+  <!-- <DirectiveLoopMapobj /> -->
+  <!-- <DirectiveLoopRange /> -->
+  <ListchangeFilter />
 </template>
 
 <style>
