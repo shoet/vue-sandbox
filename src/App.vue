@@ -16,6 +16,10 @@ import DirectiveModel from './DirectiveModel.vue';
 import DirectiveOneway from './DirectiveOneway.vue';
 import DirectiveTwoway from './DirectiveTwoway.vue';
 import DirectiveModelControls from './DirectiveModelControls.vue';
+import DirectiveConditionalBasic from './DirectiveConditionalBasic.vue';
+import DirectiveConditionalFull from './DirectiveConditionalFull.vue';
+import DirectiveConditionalTemplate from './DirectiveConditionalTemplate.vue';
+import DirectiveLoopBasic from './DirectiveLoopBasic.vue';
 </script>
 
 <template>
@@ -38,9 +42,13 @@ import DirectiveModelControls from './DirectiveModelControls.vue';
     <br>
     <DirectiveTwoway />
   </section> -->
-  <section>
+  <!-- <section>
     <DirectiveModelControls />
-  </section>
+  </section> -->
+  <!-- <DirectiveConditionalBasic /> -->
+  <!-- <DirectiveConditionalFull /> -->
+  <!-- <DirectiveConditionalTemplate /> -->
+  <DirectiveLoopBasic />
 </template>
 
 <style>
