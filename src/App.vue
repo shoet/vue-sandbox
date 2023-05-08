@@ -28,6 +28,8 @@ import DirectiveLoopMapobj from './DirectiveLoopMapobj.vue';
 import DirectiveLoopRange from './DirectiveLoopRange.vue';
 import ListchangeFilter from './ListchangeFilter.vue';
 import MoguraTataki from './MoguraTataki.vue';
+import WatcherExample from './WatcherExample.vue';
+import LifeCycleFooks from './LifeCycleFooks.vue';
 </script>
 
 <template>
@@ -64,7 +66,9 @@ import MoguraTataki from './MoguraTataki.vue';
   <!-- <DirectiveLoopMapobj /> -->
   <!-- <DirectiveLoopRange /> -->
   <!-- <ListchangeFilter /> -->
-  <MoguraTataki />
+  <!-- <MoguraTataki /> -->
+  <!-- <WatcherExample /> -->
+  <LifeCycleFooks />
 </template>
 
 <style>
