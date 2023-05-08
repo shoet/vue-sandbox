@@ -27,8 +27,8 @@ function toggleList() {
   <button @click="reverse">reverse</button>
 
   <div v-if="isDisplayList && numbers.length">
-    <ul v-for="(element, key) of numbers" :key="key">
-      <li>{{ element }}</li>
+    <ul>
+      <li v-for="(element, key) of numbers" :key="key">{{ element }}</li>
     </ul>
   </div>
   <p v-else-if="numbers.length">List is not empty, but hidden.</p>

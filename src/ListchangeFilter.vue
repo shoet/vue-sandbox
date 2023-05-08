@@ -24,13 +24,13 @@ interface Human {
 
 <template>
   <p>すべてのHuman</p>
-  <ul v-for="obj in humanListRef" v-bind:key="obj.name">
-    <li>{{ obj }}</li>
+  <ul>
+    <li v-for="obj in humanListRef" v-bind:key="obj.name">{{ obj }}</li>
   </ul>
 
   <p>血液型A</p>
-  <ul v-for="obj in humanListRefA" v-bind:key="obj.name">
-    <li>{{ obj }}</li>
+  <ul>
+    <li v-for="obj in humanListRefA" v-bind:key="obj.name">{{ obj }}</li>
   </ul>
 </template>
 

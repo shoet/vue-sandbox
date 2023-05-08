@@ -13,14 +13,13 @@ const associateList = ref(associateListInit);
 
 <template>
   <p>(a) id: value</p>
-  <ul v-for="(value, id) in associateList" v-bind:key="'a_'+id">
-    <li>{{ id }} : {{ value }} , v-bind:key={{ 'a_' + id }}</li>
+  <ul>
+    <li v-for="(value, id) in associateList" v-bind:key="'a_'+id">{{ id }} : {{ value }} , v-bind:key={{ 'a_' + id }}</li>
   </ul>
   <p>(b) id: value: index</p>
-  <ul v-for="(value, id, index) in associateList" v-bind:key="'b_'+id">
-    <li>{{ id }} : {{ value }} : {{ index }}, v-bind:key={{ 'b_' + id }}</li>
+  <ul>
+    <li v-for="(value, id, index) in associateList" v-bind:key="'b_'+id">{{ id }} : {{ value }} : {{ index }}, v-bind:key={{ 'b_' + id }}</li>
   </ul>
-
   <p>(a)と(b)は同じコンポーネント内にあるので、v-bind:keyは双方でかぶってはいけない</p>
 </template>
 
