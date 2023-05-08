@@ -30,6 +30,9 @@ import ListchangeFilter from './ListchangeFilter.vue';
 import MoguraTataki from './MoguraTataki.vue';
 import WatcherExample from './WatcherExample.vue';
 import LifeCycleFooks from './LifeCycleFooks.vue';
+import HttpRequeestExample from './HttpRequeestExample.vue';
+import SetupFunctionExample from './SetupFunctionExample.vue';
+import OptionsApiExample from './OptionsApiExample.vue';
 </script>
 
 <template>
@@ -68,7 +71,10 @@ import LifeCycleFooks from './LifeCycleFooks.vue';
   <!-- <ListchangeFilter /> -->
   <!-- <MoguraTataki /> -->
   <!-- <WatcherExample /> -->
-  <LifeCycleFooks />
+  <!-- <LifeCycleFooks /> -->
+  <!-- <HttpRequeestExample /> -->
+  <!-- <SetupFunctionExample /> -->
+  <OptionsApiExample />
 </template>
 
 <style>
