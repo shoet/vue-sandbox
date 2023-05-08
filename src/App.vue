@@ -27,6 +27,7 @@ import DirectiveLoopArrayobj from './DirectiveLoopArrayobj.vue';
 import DirectiveLoopMapobj from './DirectiveLoopMapobj.vue';
 import DirectiveLoopRange from './DirectiveLoopRange.vue';
 import ListchangeFilter from './ListchangeFilter.vue';
+import MoguraTataki from './MoguraTataki.vue';
 </script>
 
 <template>
@@ -62,7 +63,8 @@ import ListchangeFilter from './ListchangeFilter.vue';
   <!-- <DirectiveLoopArrayobj /> -->
   <!-- <DirectiveLoopMapobj /> -->
   <!-- <DirectiveLoopRange /> -->
-  <ListchangeFilter />
+  <!-- <ListchangeFilter /> -->
+  <MoguraTataki />
 </template>
 
 <style>
