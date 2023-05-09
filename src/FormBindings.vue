@@ -76,7 +76,7 @@ function pushName(event: any) {
   </main><!-- /.main -->
 </template>
 
-<style>
+<style scoped>
 .main {
   display: flex;
   flex-wrap: wrap;

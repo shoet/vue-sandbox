@@ -33,6 +33,7 @@ import LifeCycleFooks from './LifeCycleFooks.vue';
 import HttpRequeestExample from './HttpRequeestExample.vue';
 import SetupFunctionExample from './SetupFunctionExample.vue';
 import OptionsApiExample from './OptionsApiExample.vue';
+import ComponentsBasic from './ComponentsBasic.vue';
 </script>
 
 <template>
@@ -74,7 +75,8 @@ import OptionsApiExample from './OptionsApiExample.vue';
   <!-- <LifeCycleFooks /> -->
   <!-- <HttpRequeestExample /> -->
   <!-- <SetupFunctionExample /> -->
-  <OptionsApiExample />
+  <!-- <OptionsApiExample /> -->
+  <ComponentsBasic />
 </template>
 
 <style>
