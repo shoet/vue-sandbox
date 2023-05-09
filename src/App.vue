@@ -34,6 +34,7 @@ import HttpRequeestExample from './HttpRequeestExample.vue';
 import SetupFunctionExample from './SetupFunctionExample.vue';
 import OptionsApiExample from './OptionsApiExample.vue';
 import ComponentsBasic from './ComponentsBasic.vue';
+import ComponentsPropsIndepth from './ComponentsPropsIndepth.vue';
 </script>
 
 <template>
@@ -76,7 +77,8 @@ import ComponentsBasic from './ComponentsBasic.vue';
   <!-- <HttpRequeestExample /> -->
   <!-- <SetupFunctionExample /> -->
   <!-- <OptionsApiExample /> -->
-  <ComponentsBasic />
+  <!-- <ComponentsBasic /> -->
+  <ComponentsPropsIndepth />
 </template>
 
 <style>
