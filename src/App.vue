@@ -35,6 +35,11 @@ import SetupFunctionExample from './SetupFunctionExample.vue';
 import OptionsApiExample from './OptionsApiExample.vue';
 import ComponentsBasic from './ComponentsBasic.vue';
 import ComponentsPropsIndepth from './ComponentsPropsIndepth.vue';
+import ComponentsEmitBasics from './ComponentsEmitBasics.vue';
+import ComponentsEmitPractice1 from './ComponentsEmitPractice1.vue'
+import ComponentsEmitPractice2 from './ComponentsEmitPractice2.vue'
+import ComponentsEmitPractive3 from './ComponentsEmitPractive3.vue';
+import ComponentsEmitModel from './ComponentsEmitModel.vue';
 </script>
 
 <template>
@@ -78,7 +83,13 @@ import ComponentsPropsIndepth from './ComponentsPropsIndepth.vue';
   <!-- <SetupFunctionExample /> -->
   <!-- <OptionsApiExample /> -->
   <!-- <ComponentsBasic /> -->
-  <ComponentsPropsIndepth />
+  <!-- <ComponentsPropsIndepth /> -->
+  <!-- <ComponentsEmitBasics /> -->
+  <!-- <EmitPractive1 /> -->
+  <!-- <ComponentsEmitPractice1 /> -->
+  <!-- <ComponentsEmitPractice2 /> -->
+  <!-- <ComponentsEmitPractive3 /> -->
+  <ComponentsEmitModel />
 </template>
 
 <style>
