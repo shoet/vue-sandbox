@@ -1,5 +1,6 @@
 <!-- 子コンポーネント側に処理を寄せる -->
 <script setup lang="ts">
+import { computed } from 'vue';
 
 interface Props {
   id: number;
@@ -13,18 +14,17 @@ interface Emits {
 }
 const emits = defineEmits<Emits>();
 
-const onInput = (event: Event): void => {
-  const element = event.target as HTMLInputElement;
-  const inputPoints = Number(element.value);
-  emits("update:points", inputPoints);
+const onClick = () => {
+  emits("update:points", props.points+1);
 }
+// https://progtext.net/programming/vue-v-model-props/
 </script>
 
 <template>
   <div class="container">
     <p>{{ name }}</p>
-    <input type="number" v-bind:value="points" v-on:input="onInput">
-    <p>保有ポイント：{{ points }}</p>
+    <p>{{ points }}</p>
+    <button v-on:click="onClick">加算</button>
   </div>
 </template>
 

@@ -38,8 +38,9 @@ import ComponentsPropsIndepth from './ComponentsPropsIndepth.vue';
 import ComponentsEmitBasics from './ComponentsEmitBasics.vue';
 import ComponentsEmitPractice1 from './ComponentsEmitPractice1.vue'
 import ComponentsEmitPractice2 from './ComponentsEmitPractice2.vue'
-import ComponentsEmitPractive3 from './ComponentsEmitPractive3.vue';
+import ComponentsEmitPractive3 from './ComponentsEmitPractice3.vue';
 import ComponentsEmitModel from './ComponentsEmitModel.vue';
+import ComponentsEmitPractice4 from './ComponentsEmitPractice4.vue';
 </script>
 
 <template>
@@ -89,7 +90,8 @@ import ComponentsEmitModel from './ComponentsEmitModel.vue';
   <!-- <ComponentsEmitPractice1 /> -->
   <!-- <ComponentsEmitPractice2 /> -->
   <!-- <ComponentsEmitPractive3 /> -->
-  <ComponentsEmitModel />
+  <!-- <ComponentsEmitModel /> -->
+  <ComponentsEmitPractice4 />
 </template>
 
 <style>
