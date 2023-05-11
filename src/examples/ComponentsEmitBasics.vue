@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import EmitSection from './components/componentsbasic/EmitSection.vue';
+import EmitSection from '@/components/componentsbasic/EmitSection.vue';
 
 const rand = ref(Math.round(Math.random() * 10));
 const isActive = ref(false);

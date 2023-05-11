@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import MemberView from './components/MemberView.vue';
+import MemberView from '@/components/MemberView.vue';
 
 const memberListInit = new Map<number, Member>();
 memberListInit.set(1, {id: 1, name: "aaaa", email: "aaaa@example.com", points: 10, note: "優待あり"});

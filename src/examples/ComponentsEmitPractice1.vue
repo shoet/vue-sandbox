@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import EmitButton from './components/componentsbasic/EmitButton.vue';
+import EmitButton from '@/components/componentsbasic/EmitButton.vue';
 
 const rand = ref(Math.round(Math.random() * 10));
 const onClick = (): void => {

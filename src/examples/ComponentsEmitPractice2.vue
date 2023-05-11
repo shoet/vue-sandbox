@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-import EmitCard from './components/componentsbasic/EmitCard.vue';
+import EmitCard from '@/components/componentsbasic/EmitCard.vue';
 
 interface Member {
   id: number;

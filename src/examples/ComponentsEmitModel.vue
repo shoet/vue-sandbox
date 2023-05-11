@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import EmitCardModelClick from './components/componentsbasic/EmitCardModelClick.vue';
+import EmitCardModel from '@/components/componentsbasic/EmitCardModel.vue';
 
 interface Member {
   id: number;
@@ -20,13 +20,12 @@ const memberList = ref(memberListInit);
 
 <template>
   <h1>会員情報</h1>
-  <EmitCardModelClick 
+  <EmitCardModel 
     v-for="[id, member] in memberList"
     v-bind:key="id"
     :id="id"
     :name="member.name"
-    v-model:points="member.points"
-    />
+    v-model:points="member.points"/>
 </template>
 
 <style>

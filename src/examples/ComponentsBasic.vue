@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { Content } from './models/model';
+import { Content } from '@/models/model';
 
-import MySection from './components/componentsbasic/MySection.vue';
+import MySection from '@/components/componentsbasic/MySection.vue';
 
 const contentListAInit = [
   new Content("title1", "description1", "author1", "2023/05/09"),

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import EmitPractive3 from './components/componentsbasic/EmitPractive3.vue';
+import EmitPractive3 from '@/components/componentsbasic/EmitPractive3.vue';
 
 interface Member {
   id: number;

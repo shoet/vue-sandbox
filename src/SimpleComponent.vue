@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import TodoItem from './components/TodoItem.vue'
+import TodoItem from '@/components/TodoItem.vue'
 
 const groceryList = ref([
   {id: 0, text: 'Vegetables'},
