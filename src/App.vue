@@ -4,6 +4,7 @@ import TodoProvinje from './todo-provinje/TodoProvinje.vue';
 import XssVHtml from './xss-test/XssVHtml.vue';
 import SlotExample from './slot-example/SlotExample.vue';
 import SlotScopedExample from './slot-scoped-example/SlotScopedExample.vue';
+import ComponentsDynamic from './components-dynamic/ComponentsDynamic.vue';
 </script>
 
 <template>
@@ -11,7 +12,8 @@ import SlotScopedExample from './slot-scoped-example/SlotScopedExample.vue';
   <!-- <TodoProvinje /> -->
   <!-- <XssVHtml /> -->
   <!-- <SlotExample /> -->
-  <SlotScopedExample />
+  <!-- <SlotScopedExample /> -->
+  <ComponentsDynamic />
 </template>
 
 <style scoped>

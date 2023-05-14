@@ -27,7 +27,7 @@ const profile = computed(
   </div>
 </template>
 
-<style>
+<style scoped>
 .container {
   padding: 10px;
   margin-bottom: 10px;
